@@ -4,12 +4,16 @@ NewOrderEmail(e);
 
 
 function NewOrderEmail(e){
+  //setting up your team emails
   let taletoon = "asktaletoon@gmail.com";
   let adel = "adelelzemity@gmail.com";
   let yasser = "ay47757@gmail.com";
   let eshiba = "mohamedeshiba08@gmail.com";
+  
+  //setting up msg defult body and header
   let msg = "NEW ORDER WITH ID #";
   let body = "\n\n Check out the new order details from here:\n\nhttps://bit.ly/3dWy2zX";
+  
   //selecting the active sheet
   var activeSheet = e.source.getActiveSheet();
   
